@@ -64,7 +64,7 @@ promptUser()
   .then(function(answers) {
     const gitHub = api.getUser(answers.Username)
     const markdown = generateMarkdown(answers);
-    answers.avatar = gitHub
+    answers.avatar_url = gitHub
 
     console.log(answers)
     console.log(gitHub)
