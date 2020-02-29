@@ -15,16 +15,45 @@ function promptUser() {
     },
     
     {
-      type: "number",
-      name: "number of repos",
-      message: "How many repositories do you have?"
-    },
-    
-    {
-      type: "input",
-      name: "User location",
-      message: "Where are you located?"
-    },
+      type: 'input',
+      name: 'title',
+      message: 'Enter a project title?'
+  },
+  {
+      type: 'input',
+      name: 'description',
+      message: 'Enter a description?'
+  },
+  {
+    type: 'input',
+    name: 'installation',
+    message: 'Are there any installations required?'
+  },
+  {
+    type: 'input',
+    name: 'usage',
+    message: 'What is the usage?'
+  },
+  {
+    type: 'input',
+    name: 'license',
+    message: 'Are there any license?'
+  },
+  {
+    type: 'input',
+    name: 'contributing',
+    message: 'Who is contributing?'
+  },
+  {
+    type: 'input',
+    name: 'tests',
+    message: 'Are there any tests?'
+  },
+  {
+    type: 'input',
+    name: 'questions',
+    message: 'Are there any questions?'
+  }
     
   ]);
 }
