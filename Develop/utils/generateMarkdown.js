@@ -1,7 +1,9 @@
 function generateMarkdown(data) {
-  return `
-# ${data.title}
 
+  return `
+    # ${data.Username}
+    ${data["number of repos"]}
+    ${data["User location"]}
 `;
 }
 

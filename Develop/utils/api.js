@@ -1,6 +1,14 @@
+const axios = require("axios");
+
 const api = {
   getUser(username) {
-
+    axios
+    .get(`https://api.github.com/users/${username}`)
+    .then(function(res) {
+      console.log(res.data.avatar_url);
+      console.log(res.email);
+      
+    });
   }
 };
 
@@ -8,13 +16,9 @@ module.exports = api;
 
 
 
-// const axios = require("axios");
+ 
 
-// axios
-//   .get("https://www.omdbapi.com/?t=The%20Matrix&apikey=trilogy")
-//   .then(function(res) {
-//     console.log(res.data);
-//   });
+
 
 
 
