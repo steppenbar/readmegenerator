@@ -22,8 +22,3 @@ module.exports = api;
 
 
 
-
-// .then(({username}) => { //query Github API for user info and repos
-//   const repoQueryUrl = `https://api.github.com/users/${username}/repos`;
-//   const accQueryUrl = `https://api.github.com/users/${username}`;
-//   console.log("API queried");
