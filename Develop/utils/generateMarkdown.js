@@ -6,7 +6,7 @@ function generateMarkdown(answers) {
   
   ## Description
   * ${answers.description}
-  ![](C:\Users\Art\Desktop\readmegenerator\Develop\utils\images\Untitled_ Feb 29, 2020 11_06 PM (1).gif)
+  ![](utils/images/Untitled_ Feb 29, 2020 11_06 PM (1).gif)
    
   ## Table of Contents
   - [Installation](#Installation)
