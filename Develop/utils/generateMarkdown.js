@@ -15,11 +15,24 @@ function generateMarkdown(answers) {
   - [Contributing](#Contributing)
   - [Test](#Test)
   - [Questions](#Questions)
-  ![Profile Picture](${answers.avatar}=250x)
 
+  ## Installation
+  * The following installations are required: ${answers.installation}
+  ## Usage
+  * ${answers.usage}
+  ## License
+  * ${answers.license}
+  ## Contributing
+  * ${answers.contributing}
+  ## Tests
+  * ${answers.tests}
+  ## Questions
+  * ${answers.questions}
+  ## Github Profile Avatar
+  ![Profile Picture](${answers.avatar}=250x)
+ 
     # ${answers.Username}
-    ${answers["number of repos"]}
-    ${answers["User location"]}
+ 
 
 
 

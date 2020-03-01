@@ -37,7 +37,7 @@ function promptUser() {
   {
     type: 'input',
     name: 'license',
-    message: 'Are there any license?'
+    message: 'Are there any licenses?'
   },
   {
     type: 'input',
@@ -72,7 +72,8 @@ promptUser()
     return writeFileAsync("ReadMe.md", markdown);
   })
   .then(function() {
-    console.log("Successfully wrote to index.html");
+    console.log("Successfully wrote to ReadMe.md");
+    
   })
   .catch(function(err) {
     console.log(err);
